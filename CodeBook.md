@@ -8,8 +8,9 @@ The data is checked to ensure that are no missing values for any of the fields a
 
 The data corresponding to the mean value and standard deviation for each of the measurements recorded is extracted as a subset.The mean and standard deviation  of each of these measurements for each subject for each activity is calculated  and the final tidy dataset has the following measurements:
 
-Col#      |      ColName
-———————————————
+Col#        |      ColName
+———————————————---------------------
+            |
         1   |   train_test   
         2   |   subject   
         3   |   activity_name   
@@ -145,9 +146,15 @@ Col#      |      ColName
       133   |   fBodyBodyGyroMagSTD_sd   
       134   |   fBodyBodyGyroJerkMagMean_sd   
       135   |   fBodyBodyGyroJerkMagSTD_sd   
+-------------------------------------------
 
-test_train: indicates of the subject if from the test or train set
-subject: the subject identifier (between 1-30)
-activity_name: can be LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
-columns 4:135 are between -1 and +1, _mean : indicates mean value calcuated, _sd : indicates standard deviation calculated
+Column description:
+
+- test_train: indicates of the subject if from the test or train set
+
+- subject: the subject identifier (between 1-30)
+
+- activity_name: can be LAYING,SITTING,STANDING,WALKING,WALKING_DOWNSTAIRS or WALKING_UPSTAIRS
+
+- columns 4:135 are between -1 and +1, _mean : indicates mean value calcuated, _sd : indicates standard deviation calculated
 
