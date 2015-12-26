@@ -9,19 +9,19 @@ The data is checked to ensure that are no missing values for any of the fields a
 The data corresponding to the mean value and standard deviation for each of the measurements recorded is extracted as a subset.The mean and standard deviation  of each of these measurements for each subject for each activity is calculated  and the final tidy dataset has the following measurements:
 
 -----------------------------------
-|Col Number  |   ColName
-———————————- ——---------------------
-|            |      
-|1           |   train_test   
-|2           |   subject   
-|3           |   activity_name   
-|4           |   tBodyAccMeanX_mean   
-|5           |   tBodyAccMeanY_mean   
-|6           |   tBodyAccMeanZ_mean   
-|7           |   tBodyAccSTDX_mean   
-|8           |   tBodyAccSTDY_mean   
-|9           |   tBodyAccSTDZ_mean   
-|10   |   tGravityAccMeanX_mean   
+|Col Number  |   ColName           |
+———————————-   ——------------------
+|            |                     |
+|1           |   train_test        |
+|2           |   subject           |
+|3           |   activity_name     |
+|4           |   tBodyAccMeanX_mean|   
+|5           |   tBodyAccMeanY_mean|  
+|6           |   tBodyAccMeanZ_mean|   
+|7           |   tBodyAccSTDX_mean |  
+|8           |   tBodyAccSTDY_mean |  
+|9           |   tBodyAccSTDZ_mean |  
+|10          |   tGravityAccMeanX_mean   
 |11   |   tGravityAccMeanY_mean   
 |12   |   tGravityAccMeanZ_mean   
 13   |   tGravityAccSTDX_mean   
