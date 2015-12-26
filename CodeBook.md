@@ -10,7 +10,7 @@ The data corresponding to the mean value and standard deviation for each of the 
 
 Col#        |      ColName
 ———————————————---------------------
-            |
+            |                      
         1   |   train_test   
         2   |   subject   
         3   |   activity_name   
@@ -146,6 +146,7 @@ Col#        |      ColName
       133   |   fBodyBodyGyroMagSTD_sd   
       134   |   fBodyBodyGyroJerkMagMean_sd   
       135   |   fBodyBodyGyroJerkMagSTD_sd   
+            |                             
 -------------------------------------------
 
 Column description:
