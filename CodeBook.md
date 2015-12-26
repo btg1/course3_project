@@ -145,7 +145,6 @@ ColNum     |      ColName
       133   |   fBodyBodyGyroMagSTD_sd   
       134   |   fBodyBodyGyroJerkMagMean_sd   
       135   |   fBodyBodyGyroJerkMagSTD_sd   
-==========================================
 
 - test_train: indicates of the subject is from the test or train set
 - subject: the subject identifier (between 1-30)
