@@ -9,7 +9,7 @@ The data is checked to ensure that are no missing values for any of the fields a
 The data corresponding to the mean value and standard deviation for each of the measurements recorded is extracted as a subset.The mean and standard deviation  of each of these measurements for each subject for each activity is calculated  and the final tidy dataset has the following measurements:
 
 --------------------------
-Col#      |      ColName                
+###ColNum   |      ColName                
 --------------------------
         1   |   train_test   
         2   |   subject   
